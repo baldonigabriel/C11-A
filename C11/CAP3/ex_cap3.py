@@ -1,12 +1,12 @@
 # Exercício 1
 
-times = ["Real Madrid", "Barcelona", "Manchester City", "Bayern", "PSG"]  # exemplo
+times = ["Real Madrid", "Barcelona", "Manchester City", "Bayern", "PSG"]
 
 print("3 primeiros:", times[:3])
 print("Últimos 2:", times[-2:])
 print("Ordem alfabética:", sorted(times))
 
-pos_barcelona = times.index("Barcelona") + 1  # +1 pra virar posição humana (1..)
+pos_barcelona = times.index("Barcelona") + 1
 print("Barcelona está na posição:", pos_barcelona)
 
 # Exercício 2
@@ -37,7 +37,7 @@ print(aluno)
 
 # Exercício 4
 
-pessoas = []  # lista de dicionários
+pessoas = []
 
 for i in range(1, 4):
     nome = input(f"Nome da {i}ª pessoa: ").strip()
@@ -71,4 +71,5 @@ mulheres_menos_20 = sum(1 for p in pessoas if p["sexo"] == "F" and p["idade"] < 
 
 print("\n--- RESULTADOS ---")
 print(f"Média de idade do grupo: {media_idade:.2f}")
+
 print(f"Mulheres com menos de 20 anos: {mulheres_menos_20}")
