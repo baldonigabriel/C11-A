@@ -158,7 +158,3 @@ for numero, contagem in zip(unicos, contagens):
 
 if not encontrou:
     print("Nenhum número aparece exatamente 2 vezes")
-
-print("\n" + "=" * 70)
-print("FIM DOS EXERCÍCIOS")
-print("=" * 70)
